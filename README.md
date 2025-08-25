@@ -16,7 +16,6 @@ The project includes visualization of training progress and uses function approx
 - [Setup](#setup)
 - [Usage](#usage)
 - [Results](#results)
-- [Reference](#reference)
 
 ---
 
@@ -82,5 +81,31 @@ Rewards:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/snake-ai.git
-   cd snake-ai
+   git clone https://github.com/Devesh176/Snake_Game_RL.git
+   cd Snake_Game_RL/pygame_env_rl
+   ```
+
+2. **Install the Dependencies**
+   ```bash
+   pip install pygame torch matplotlib
+   ```
+3. **Ensure the font file is present** (arial.ttf)
+
+
+## Usage
+
+1. **To play the game manually**
+   ```bash
+   python new_game.py
+   ```
+2. **Train the AI Agent**
+   ```bash
+   python agent.py
+   ```
+## Results
+During training:
+- A live plot of scores and mean scores is displayed using matplotlib.
+- The agent gradually improves performance over multiple games.
+   
+   
+   
